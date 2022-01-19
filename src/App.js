@@ -11,6 +11,7 @@ import orangeChicken from './images/orange-chicken.jpg';
 import SliderElement from './components/SliderElement/SliderElement';
 import ItemCard from './components/ItemCard/ItemCard';
 import Footer from './containers/Footer/Footer';
+import MenuContainer from './containers/MenuContainer/MenuContainer';
 
 const theme = {
   colors: {
@@ -68,6 +69,9 @@ const App = () => {
           spice='*'
           price='6.99'
         />
+      </Container>
+      <Container>
+        <MenuContainer />
       </Container>
       <Footer />
     </ThemeProvider>
